@@ -1,0 +1,175 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.result-span {
+    font-size: 60px;
+    margin: 0 5px;
+}
+
+.years {
+    font-size: 100px;
+}
+
+.weeks {
+    font-size: 80px;
+}
+
+.days {
+    font-size: 70px;
+}
+
+.hours {
+    font-size: 50px;
+}
+
+.minutes {
+    font-size: 40px;
+}
+
+.seconds {
+    font-size: 30px;
+}
+
+.milliseconds {
+    font-size: 20px;
+}
+
+#result {
+    margin-top: 350px;
+}
+
+.main-content {
+    margin-top: 320px;
+}
+
+.btn {
+    margin-top: 30px;
+    color: black;
+    background-color: white;
+}
+
+.fa-house {
+    color: white;
+}
+
+
+.btn-home {
+    background-color: transparent;
+    color: white;
+}
+
+.btn-home:active {
+    background-color: transparent;
+    color: white;
+    border-color: transparent;
+}
+
+.test {
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+::selection {
+    background-color: #ccc;
+    color: #000;
+  }
+
+/* Media */
+
+@media (max-width: 767px) {
+    .result-span {
+        font-size: 30px;
+        margin: 0 5px;
+    }
+
+    .years {
+        font-size: 50px;
+    }
+
+    .weeks {
+        font-size: 40px;
+    }
+
+    .days {
+        font-size: 35px;
+    }
+
+    .hours {
+        font-size: 25px;
+    }
+
+    .minutes {
+        font-size: 20px;
+    }
+
+    .seconds {
+        font-size: 15px;
+    }
+
+    .milliseconds {
+        font-size: 10px;
+    }
+
+    #result {
+        margin-top: 250px;
+    }
+
+    .test {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .main-content {
+        margin-top: 210px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .result-span {
+        font-size: 30px;
+        margin: 0 5px;
+    }
+
+    .years {
+        font-size: 50px;
+    }
+
+    .weeks {
+        font-size: 40px;
+    }
+
+    .days {
+        font-size: 35px;
+    }
+
+    .hours {
+        font-size: 25px;
+    }
+
+    .minutes {
+        font-size: 20px;
+    }
+
+    .seconds {
+        font-size: 15px;
+    }
+
+    .milliseconds {
+        font-size: 10px;
+    }
+
+    #result {
+        margin-top: 250px;
+    }
+
+    .test {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .main-content {
+        margin-top: 210px;
+    }
+}
